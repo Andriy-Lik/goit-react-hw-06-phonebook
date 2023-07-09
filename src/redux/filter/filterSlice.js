@@ -3,7 +3,7 @@ import { initialFilter } from "./initialFilter";
 
 const filterSlice = createSlice({
   name: 'filter',
-  initialState: initialFilter.filter, // Изменение здесь
+  initialState: initialFilter.filter,
   reducers: {
     filterActions: (_, { payload }) => payload,
   }
@@ -11,20 +11,3 @@ const filterSlice = createSlice({
 
 export const { filterActions } = filterSlice.actions;
 export const filterReducer = filterSlice.reducer;
-
-
-// import { createSlice } from "@reduxjs/toolkit";
-// import { initialFilter } from "./filter/initialFilter";
-
-// const filterSlice = createSlice({
-//     name: 'filter',
-//     initialState: initialFilter,
-//     reducers: {
-//         filterActions: (_, {payload}) => {
-//             return payload;
-//         }
-//     }
-// })
-
-// export const { filterActions } = filterSlice.actions;
-// export const filterReducer = filterSlice.reducer;

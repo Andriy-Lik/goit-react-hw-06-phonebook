@@ -4,8 +4,6 @@ import { nanoid } from "nanoid";
 import { FilterDiv, FilterLabel, FilterInput } from './Filter.styled';
 import { filterActions } from "redux/filter/filterSlice";
 
-
-
 function Filter() {
     const filterInputId = nanoid();
     const dispatch = useDispatch();

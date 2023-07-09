@@ -1,9 +1,3 @@
-// import contacts from '../../components/Data/Contacts.json';
-
-// export const initialContacts = {
-//     contacts,
-// };
-
 export const initialContacts = [
     { id: "id-1", name: "Rosie Simpson", number: "459-12-56" },
     { id: "id-2", name: "Hermione Kline", number: "443-89-12" },
